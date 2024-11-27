@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="relative flex-1 flex-col justify-center py-10 items-center xl:min-h-screen max-xl:py-40 hidden xl:block">
        <Sparkles className="ml-[20%] text-white"/>
         <Moon className="size-96" />
-       <Sparkles className="ml-[80%] text-white"/>
+       <Sparkles className="ml-[80%] text-white delay-150"/>
       </div>
     </section>
   );

@@ -10,9 +10,9 @@ export const PopularProductCard = ({
   description,
 }: PopularProductCard) => {
   return (
-    <div className="flex flex-wrap flex-col w-full max-sm:w-full p-10 bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 rounded-xl">
+    <div className="flex flex-wrap flex-col w-full max-sm:w-full p-10 bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 rounded-xl hover:scale-105 transition-all">
       <div className="mt-8 flex justify-start gap-2.5 mb-5">
-        <div className="p-3 bg-slate-800 rounded-full">
+        <div className="p-3 bg-slate-700 rounded-full">
         <Icon className="size-10" />
         </div>
       </div>
